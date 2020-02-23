@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.header {
+    background-color: #003AFE;
+    background: radial-gradient(circle, rgba(4,114,253,1) 0%, rgba(4,114,253,1) 33%, rgba(0,47,225,1) 77%);
+}
+
+
+.separator {
+    background-color: #0E72AD;
+    height: 5pt;
+}
+
+.title {
+    margin: 0;
+    padding: 30pt;
+    text-align: center;
+    text-shadow: 0 0 40pt white;
+    color: white;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.content {
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.maincontent {
+    width: 80%;
+    height: 500px;
+    background: red;
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+    height: 500px;
+    background: #FFCC00;
+    float: right;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin-left:20%; 
+    margin-right:20%;
+    padding: 0;
+    overflow: hidden;
+    background: #FFD302;
+    background: linear-gradient(180deg, rgba(255,216,1,1) 0%, rgba(255,216,1,1) 35%, rgba(248,121,4,1) 100%);
+}
+
+.navigation li {
+    width: 20%;
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+    background-color: #111;
+}
+
+.active {
+    color: #FD67CB;
+}

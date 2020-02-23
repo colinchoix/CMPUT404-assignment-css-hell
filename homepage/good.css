@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #0E72AD;
+    background: linear-gradient(180deg, rgba(22,121,180,1) 10%, rgba(0,101,153,1) 50%, rgba(22,121,180,1) 90%);
+}
+
+.wood {
+    height: 40pt;
+    background-color: #C96D3C;
+    box-shadow: 0 1pt 5pt black;
+}
+
+.separator {
+    background-color: #0E72AD;
+    height: 5pt;
+}
+
+.title {
+    margin: 0;
+    padding: 30pt;
+    text-align: center;
+    text-shadow: 0 0 70pt rgb(254, 255, 236);
+    color: white;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.content {
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.maincontent {
+    width: 80%;
+    height: 500px;
+    background: red;
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+    height: 500px;
+    background: yellow;
+    float: right;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #494949;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+    background-color: #111;
+}
+
+.active {
+    color: #4CAF50;
+}

@@ -1,0 +1,41 @@
+body { 
+    background:#f2eecb; 
+    margin-left:25%; 
+    margin-right:25%; 
+    text-align:justify 
+}
+
+P { 
+    color:brown; 
+    text-indent: 1em; 
+    margin-top: .5em; 
+    margin-bottom: .5em; 
+    font: italic;
+    font-family: Times, serif;
+    font-size: 18px;
+}
+
+
+H1,H2,H3,H4,H5,H6 { 
+    color:#663333; 
+    text-align: center; 
+    font-family: cursive, Times, serif;
+}
+
+img{
+    border-style: ridge;
+    border-color: #663333;
+    box-shadow: 5px 5px 5px rgb(219, 48, 25);
+}
+
+hr  { width: 50%; text-align: center;}
+
+table      {margin-left: 10%;}
+
+a:link {color:#663333;
+		text-decoration:none}
+link {color:#663333;
+		text-decoration:none}
+a:visited {color:rgb(219, 48, 25);
+		text-decoration:none}
+a:hover {color:rgb(243, 57, 11)}
