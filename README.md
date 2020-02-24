@@ -15,10 +15,15 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 Changes to project gutenberg HTML files
 =======================================
 Changed background color
+
 Added margins to body
+
 Changed text color for header and paragraphs
+
 Changed fonts for header and paragraphs
+
 Changed sttyling of images. Added shadow
+
 Changed colors of links when hovered over and clicked
 
 License/Copyright
