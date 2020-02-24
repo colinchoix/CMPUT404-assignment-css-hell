@@ -60,32 +60,40 @@ p{
     margin-right: 20%;
     float: right;
     border: 1px solid #ddd;
-    border-radius: 50%;
+    border-radius: 5%;
     padding: 5px;
     width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .maincontent {
-    width: 80%;
-    height: 800px;
+    width: 75%;
+    height: 1000px;
     background: white;
     float: left;
 }
 
 .sidebar {
-    width: 20%;
-    height: 800px;
-    background: yellow;
+    width: 25%;
+    height: 1000px;
+    background: rgb(226, 226, 222);
     float: right;
 }
 
+.skills {
+    padding: 20px;
+
+}
+
+.skills p{
+    color: #0E72AD
+}
 .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: #494949;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 .navigation li {
